@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Diseño de la cabecera*/
+
+.encabezado{
+    width: 100%;
+    background: #000;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.encabezado .container .marca{
+
+}
+
+
+.encabezado .container .marca h3{
+    color: #ff429d;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 60px;
+    float: left;
+}
+
+.encabezado .container .marca .redes{
+    float: right;
+    line-height: 60px;
+}
+
+.encabezado .container .marca .redes span{
+    color: #fff;
+    font-size: 1.2em;
+    padding: .8em;
+}
+
+.encabezado .container .marca .redes .fa-facebook:hover{
+    color: #1471c9;
+    transition: all 500ms ease;
+}
+
+.encabezado .container .marca .redes .fa-google:hover{
+    color: #f75151;
+    transition: all 500ms ease;
+}
+
+.encabezado .container .marca .redes .fa-twitter:hover{
+    color: #2acaf7;
+    transition: all 500ms ease;
+}
+
+.encabezado .container .marca .redes .fa-linkedin:hover{
+    color: #2369aa;
+    transition: all 500ms ease;
+}
+
+/*Diseño de la Navegación*/
+.navegacion{
+    padding: .8em 0px;
+}
+
+.navegacion .menu-navegacion{
+}
+
+.navegacion .menu-navegacion .fa-bars{
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #ff429d;
+}
+
+.navegacion .menu-navegacion .fa-search{
+    float: right;
+    font-size: 1.8em;
+}
+
+/*diseño de bloque quienes somos*/
+
