@@ -134,6 +134,35 @@ body{
 
 /*Diseño de bloque de nosotros*/
 
+.nosotros{
+    text-align: center;
+    padding: 2em 0px;
+}
+
+.nosotros .texto-nosotros{
+    margin-bottom: 2em;
+}
+
+.nosotros .texto-nosotros h2{
+    font-size: 2em;
+}
+
+.nosotros .texto-nosotros h4{
+    color: red;
+}
+
+.nosotros .texto-nosotros p{
+    color: #8e8e8e;
+    font-weight: 200;
+    margin-top: 1em;
+}
+
+
+.nosotros .img-nosotros img{
+    border: .1em solid #4e4e4e;
+    padding: 1em;
+
+}
 
 
 
