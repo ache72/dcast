@@ -87,4 +87,61 @@ body{
 }
 
 /*diseño de bloque quienes somos*/
+.presentacion{
+    background: url("../images/banner.jpg");
+    width: 100%;
+    background-size: cover;
+    min-height: 266.75px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.presentacion .texto-presentacion{
+    text-align: center;
+    padding: 2em 0px;
+    width: 100%;
+}
+
+.presentacion .texto-presentacion h3{
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.presentacion .texto-presentacion .linea{
+    background: #fff;
+    height: 2px;
+    width: 10%;
+    margin: 0px auto;
+    display: block;
+}
+
+.presentacion .texto-presentacion a{
+    display: inline-block;
+    color: #fff;
+    border: .2em solid #fff;
+    padding: .7em 3em;
+    text-decoration: none;
+    margin-top: 3em;
+    
+}
+
+.presentacion .texto-presentacion .flecha{
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+/*Diseño de bloque de nosotros*/
+
+
+
+
+
+
+
+
+
+
+
 
