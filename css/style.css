@@ -141,6 +141,7 @@ body{
 
 .nosotros .texto-nosotros{
     margin-bottom: 2em;
+    padding: 0px 2em;
 }
 
 .nosotros .texto-nosotros h2{
@@ -164,8 +165,45 @@ body{
 
 }
 
+/*Diseño del bloque de servicios*/
 
+.servicios{
+    background: url("../images/servicesbg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2em 2em;
+}
 
+.servicios .item-servicios article{
+    margin-top: 2em;
+}
+
+.servicios h2{
+    color: #fff;
+    font-size: 2em;
+}
+
+.servicios .item-servicios article span{
+    color: rgba(255, 255, 255, .8);
+    font-size: 3.3em;
+    border: .1px solid rgba(255, 255, 255, .8);
+    border-radius: 100%;
+    padding: .31em .35em;
+}
+
+.servicios .item-servicios article h5{
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.servicios .item-servicios article p{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 100;
+}
 
 
 
