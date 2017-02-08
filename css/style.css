@@ -205,8 +205,51 @@ body{
     font-weight: 100;
 }
 
+/*Diseño de bloque de eventos*/
 
+.nuevos-eventos{
+    padding: 2em 2em;
+}
 
+.nuevos-eventos h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.nuevos-eventos .item-evento{
+    text-align: left;
+    margin-top: 2em;
+}
+
+.nuevos-eventos .item-evento img{
+    width: 100%;
+}
+
+.nuevos-eventos .item-evento h5{
+    color: #ff429d;
+    font-size: 1.4em;
+}
+
+.nuevos-eventos .item-evento span{
+    font-weight: bold;
+}
+
+.nuevos-eventos .item-evento  p{
+    color: rgba(0,0,0, .5);
+}
+
+.nuevos-eventos .item-evento a{
+    display: inline-block;
+    margin-top: .6em;
+    top: 1em;
+    text-decoration: none;
+    background: #ff429d;
+    padding: .5em 1.4em;
+    color: #fff;
+    
+}
+
+/*Diseño de bloque del footer*/
 
 
 
