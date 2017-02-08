@@ -251,6 +251,52 @@ body{
 
 /*Diseño de bloque del footer*/
 
+footer{
+    text-align: left;
+    background: #000;
+    color: #fff;
+}
+
+footer .direccion{
+    padding: 2em;
+}
+
+footer .direccion h3{
+    color: #ff429d;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+footer .direccion p{
+    color: rgba(255, 255, 255, .6);
+}
+
+footer .direccion .subdireccion{
+    margin-top: 2em;
+}
+
+footer .direccion .subdireccion li{
+    color: rgba(255, 255, 255, .6);
+    list-style: none;
+}
+
+footer .direccion .subdireccion li a{
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+    margin-right: .5em; 
+}
+
+footer .legal{
+    background:#ff429d; 
+    padding: 2em;
+}
+
+
+
+
+
+
+
 
 
 
